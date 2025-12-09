@@ -42,3 +42,8 @@ for number in numbers:
 print("total: " ,total)
 
 new_numbers = list(range(1, 600001))
+
+list[5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25]
+sum = 0
+for num in list:
+    print(range(str(list[0:-1]))
