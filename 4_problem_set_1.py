@@ -17,6 +17,7 @@ n = int(input("Enter a number:"))
 total = 0
 for i in range(1, n+1):
     total += i
+print("The sum of the numbers form i to", n,"is:" , total)
 # Ask the user for a number **n**, then calculate and display the **sum of all numbers from 1 to n**.
 
 
@@ -27,7 +28,16 @@ for i in range(1, n+1):
 
 # *(Example: factorial of 5 is 120)
 
+def factorial(n):
 
+    factorial = 1
+
+    for i in range(n):
+        factorial*=i+1
+
+        return factorial
+    
+print(factorial(20))
 # ### **Problem 4: Count Vowels**
 
 # Ask the user for a string. Count and print how many **vowels (a, e, i, o, u)** are in the string.
